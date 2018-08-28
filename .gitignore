@@ -11,3 +11,5 @@ npm-debug.log
 yarn-error.log
 .env
 .directory
+_ide_helper.php
+/docs/*.mo
