@@ -1,7 +1,5 @@
-.. Fresh documentation master file, created by
+.. Frendly shop's documentation master file, created by
    sphinx-quickstart on Sat Jun 30 12:18:26 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Welcome to Fresh's documentation!
 =================================
@@ -17,7 +15,7 @@ Welcome to Fresh's documentation!
 
   - [ ] Модульная система ядра. Каждый модуль состоит из компонентов
 
-  - [ ] Модули маркетплейса (струкрута для модулей и компонентов внешних разработчиков)
+  - [ ] Модули маркетплейса (структура для модулей и компонентов внешних разработчиков)
 
   - [ ] Возможнось переопределения модулей и добавления пакетов Laravel/Symfony в инсталляции
 
@@ -35,6 +33,8 @@ Contents:
    :maxdepth: 2
 
 
+   manual
+   test
 
 Indices and tables
 ==================

@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Oleg Ekhlakov
+# This file is distributed under the same license as the Fresh package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fresh 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-28 21:24+0300\n"
+"PO-Revision-Date: 2018-08-28 21:36+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: ../../source/manual.rst:5
+msgid "Manual"
+msgstr "Документация"
+
+#: ../../source/manual.rst:7
+msgid ""
+"There is /docs/source directory with user manual source files. Those files are "
+"compile to endpoint user manual by the help shell command (from the root "
+"directory of the project at stand alone terminal):"
+msgstr ""
+"В каталоге /docs/source directory находится исходный код документации. Эти "
+"файлы компилируются в конечный вид документации с помощью команды в терминале "
+"(запускается в корневом каталоге проекта в отдельном окне терминала):"
+
+#: ../../source/manual.rst:13
+msgid "The compiled docs you can open in browser fresh/docs/build/html/index.html"
+msgstr ""
+"Скомпилированную документацию можно увидеть в браузере, запустив fresh/docs/"
+"build/html/index.html"

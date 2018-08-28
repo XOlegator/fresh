@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Oleg Ekhlakov
+# This file is distributed under the same license as the Fresh package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fresh 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-28 21:24+0300\n"
+"PO-Revision-Date: 2018-08-28 21:32+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../source/index.rst:5
+msgid "Welcome to Fresh's documentation!"
+msgstr "Документация Fresh"
+
+#: ../../source/index.rst:7
+msgid "Интернет-магазин дружелюбный к своим пользователям и создателям."
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid ""
+"Приложение находится на стадии разработки и пока не может применяться в "
+"рабочем режиме."
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid "План для выпуска первой версии"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "[ ] Базис для модульной структуры приложения."
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "[ ] Модульная система ядра. Каждый модуль состоит из компонентов"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid ""
+"[ ] Модули маркетплейса (структура для модулей и компонентов внешних "
+"разработчиков)"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid ""
+"[ ] Возможнось переопределения модулей и добавления пакетов Laravel/"
+"Symfony в инсталляции"
+msgstr ""
+
+#: ../../source/index.rst:22
+msgid "[ ] Организация доставки обновлений (системы и сторонних модулей)"
+msgstr ""
+
+#: ../../source/index.rst:24
+msgid "[ ] Организация документации: для пользователей и разработчиков"
+msgstr ""
+
+#: ../../source/index.rst:26
+msgid ""
+"[ ] Организация структуры версионного хранения данных и скриптов. "
+"Возможность отката пользовательских действий и обновлений."
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "[ ] Административная панель"
+msgstr ""
+
+#: ../../source/index.rst:30
+msgid "Contents:"
+msgstr "Содержание:"
+
+#: ../../source/index.rst:40
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../source/index.rst:42
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../source/index.rst:44
+msgid ":ref:`search`"
+msgstr ""
