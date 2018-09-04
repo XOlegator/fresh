@@ -12,4 +12,4 @@ yarn-error.log
 .env
 .directory
 _ide_helper.php
-/docs/*.mo
+/docs/source/locale/*/LC_MESSAGES/*.mo

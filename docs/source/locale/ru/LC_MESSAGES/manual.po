@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fresh 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 21:24+0300\n"
-"PO-Revision-Date: 2018-08-28 21:36+0300\n"
+"POT-Creation-Date: 2018-09-04 11:58+0300\n"
+"PO-Revision-Date: 2018-09-04 11:58+0300\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ru\n"
-"X-Generator: Poedit 2.0.6\n"
 
 #: ../../source/manual.rst:5
 msgid "Manual"
@@ -24,16 +25,134 @@ msgstr "Документация"
 
 #: ../../source/manual.rst:7
 msgid ""
-"There is /docs/source directory with user manual source files. Those files are "
-"compile to endpoint user manual by the help shell command (from the root "
-"directory of the project at stand alone terminal):"
+"There is /docs/source directory with user manual source files. Those "
+"files are compile to endpoint user manual by the help shell command (from"
+" the root directory of the project at stand alone terminal):"
 msgstr ""
-"В каталоге /docs/source directory находится исходный код документации. Эти "
-"файлы компилируются в конечный вид документации с помощью команды в терминале "
-"(запускается в корневом каталоге проекта в отдельном окне терминала):"
+"В каталоге /docs/source directory находится исходный код документации. "
+"Эти файлы компилируются в конечный вид документации с помощью команды в "
+"терминале (запускается в корневом каталоге проекта в отдельном окне "
+"терминала):"
 
 #: ../../source/manual.rst:13
 msgid "The compiled docs you can open in browser fresh/docs/build/html/index.html"
 msgstr ""
-"Скомпилированную документацию можно увидеть в браузере, запустив fresh/docs/"
-"build/html/index.html"
+"Скомпилированную документацию можно увидеть в браузере, запустив "
+"fresh/docs/build/html/index.html"
+
+#: ../../source/manual.rst:15
+#, fuzzy
+msgid ""
+"You can also find the project documentation on the site https://frendly-"
+"shop.readthedocs.io/en/latest/ This documentation is generated "
+"automatically: using the `github`_ hook and integrating with the `Read "
+"the Docs`_ project."
+msgstr ""
+"Также можно найти документацию проекта на сайте https://frendly-"
+"shop.readthedocs.io/ru/latest/ Эта документация генерируется "
+"автоматически: с помощью хука на`github`_ и интеграции с проектом `Read "
+"the Docs`_."
+
+#: ../../source/manual.rst:18
+msgid "Documentation translation workflow"
+msgstr "Процесс перевода документации"
+
+#: ../../source/manual.rst:20
+msgid ""
+"These instructions are taken from the website http://www.sphinx-"
+"doc.org/en/master/intl.html."
+msgstr ""
+"Эта инструкция заимствована с сайта http://www.sphinx-"
+"doc.org/en/master/intl.html."
+
+#: ../../source/manual.rst:22
+msgid ""
+"`sphinx-intl`_ is a useful tool to work with Sphinx translation flow. "
+"This section describe an easy way to translate with sphinx-intl."
+msgstr ""
+"`sphinx-intl`_ это полезная утилита для работы по переводу в  Sphinx. "
+"Этот раздел описывает простой способ процесса перевода с утилитой sphinx-"
+"intl."
+
+#: ../../source/manual.rst:25
+msgid ""
+"Install `sphinx-intl`_ by :command:`pip install sphinx-intl` or "
+":command:`easy_install sphinx-intl`."
+msgstr ""
+"Установите `sphinx-intl`_ с помощью команды :command:`pip install sphinx-"
+"intl` или :command:`easy_install sphinx-intl`."
+
+#: ../../source/manual.rst:28
+msgid "Add configurations to your `conf.py`::"
+msgstr "Добавить параметры настройки `conf.py`::"
+
+#: ../../source/manual.rst:33
+msgid ""
+"This case-study assumes that `locale_dirs` is set to 'locale/' and "
+"`gettext_compact` is set to `False` (the Sphinx document is already "
+"configured as such)."
+msgstr ""
+"Этот сценарий подразумевает, что настройка `locale_dirs` установлена "
+"значением 'locale/' и `gettext_compact` установлена в `False` (эта Sphinx"
+" документация уже сконфигурирована должным образом)."
+
+#: ../../source/manual.rst:37
+msgid "Extract document's translatable messages into pot files:"
+msgstr "Извлечь сообщения для перевода из текстов в pot файлы:"
+
+#: ../../source/manual.rst:43
+#, fuzzy
+msgid ""
+"As a result, many pot files are generated under ``build/locale`` "
+"directory."
+msgstr "В результате будут созданы pot файлы в каталоге ``build/gettext``."
+
+#: ../../source/manual.rst:46
+msgid "Setup/Update your `locale_dir`:"
+msgstr "Создание/обновление каталога `locale_dir`:"
+
+#: ../../source/manual.rst:52
+msgid "Done. You got these directories that contain po files:"
+msgstr "Готово. Вы получите каталоги, содержащие po файлы:"
+
+#: ../../source/manual.rst:54
+msgid "`./locale/de/LC_MESSAGES/`"
+msgstr ""
+
+#: ../../source/manual.rst:55
+msgid "`./locale/ja/LC_MESSAGES/`"
+msgstr ""
+
+#: ../../source/manual.rst:57
+msgid "Translate your po files under `./locale/<lang>/LC_MESSAGES/`."
+msgstr "Переведите ваши po файлы в каталоге `./locale/<lang>/LC_MESSAGES/`."
+
+#: ../../source/manual.rst:59
+#, fuzzy
+msgid "Make translated document."
+msgstr "Сгенерируйте переведённые документы."
+
+#: ../../source/manual.rst:61
+msgid ""
+"You need a `language` parameter in ``conf.py`` or you may also specify "
+"the parameter on the command line (for BSD/GNU make):"
+msgstr ""
+"Необходимо задать параметр `language` в конфиге ``conf.py`` или можно "
+"установить параметр в командной строке (для команды BSD/GNU make):"
+
+#: ../../source/manual.rst:68
+msgid "command line (for Windows cmd.exe):"
+msgstr "команда (для Windows cmd.exe):"
+
+#: ../../source/manual.rst:75
+msgid "command line (for PowerShell):"
+msgstr "команда (для PowerShell):"
+
+#: ../../source/manual.rst:83
+msgid ""
+"Congratulations! You got the translated documentation in the "
+"``build/html`` directory."
+msgstr ""
+"Поздравляем! Вы получили переведённую документацию в каталоге "
+"``build/html``."
+
