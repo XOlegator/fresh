@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Fresh'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://fresh.local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -168,6 +168,12 @@ return [
          * Package Service Providers...
          */
 
+        // Laravel IDE helper
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        // XML parser
+        Orchestra\Parser\XmlServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -177,6 +183,8 @@ return [
         Fresh\Providers\EventServiceProvider::class,
         Fresh\Providers\RouteServiceProvider::class,
 
+        // Debug panel
+        'Barryvdh\Debugbar\ServiceProvider',
     ],
 
     /*
@@ -225,7 +233,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'XmlParser' => Orchestra\Parser\Xml\Facade::class,
+        'Debugbar' => 'Barryvdh\Debugbar\Facade',
     ],
 
 ];
